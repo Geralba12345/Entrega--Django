@@ -90,7 +90,7 @@ DATABASES = {
             'NAME': 'GermanAlba$loslobos_project',
             'USER': 'GermanAlba',
             'PASSWORD': 'Allernesat*1',
-            'HOST': 'NOMBRE_DE_USUARIO.mysql.pythonanywhere-services.com',
+            'HOST': 'GermanAlba.mysql.pythonanywhere-services.com',
             'PORT': '3306',
         }
 }
