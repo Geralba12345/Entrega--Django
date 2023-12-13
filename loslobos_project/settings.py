@@ -85,10 +85,14 @@ WSGI_APPLICATION = 'loslobos_project.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': 'GermanAlba$loslobos_project',
+            'USER': 'GermanAlba',
+            'PASSWORD': 'Allernesat*1',
+            'HOST': 'NOMBRE_DE_USUARIO.mysql.pythonanywhere-services.com',
+            'PORT': '3306',
+        }
 }
 
 
